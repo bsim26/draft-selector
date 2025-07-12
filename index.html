@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fantasy Football Draft Order Chooser</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Metal+Mania&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1><span class="hiac">Hell in a Cell</span> <br/>Draft Order</h1>
+            <p>Spin to determine your draft order!</p>
+        </header>
+
+        <main>
+            <div class="spinner-section">
+                <div class="name-display">
+                    <div id="currentName" class="current-name">Click Spin to Start!</div>
+                </div>
+                
+                <div class="controls">
+                    <button id="spinBtn" class="spin-btn">
+                        <span>🎯 Spin</span>
+                    </button>
+                    <button id="resetBtn" class="reset-btn">
+                        <span>🔄 Reset</span>
+                    </button>
+                </div>
+
+                <div class="spin-counter">
+                    <span>Teams: <span id="spinCount">0</span> / 14</span>
+                </div>
+            </div>
+
+            <div class="draft-order-section">
+                <h2>🏆 Draft Order</h2>
+                <div id="draftOrder" class="draft-order">
+                    <div class="empty-state">
+                        <p>Start spinning to build your draft order!</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

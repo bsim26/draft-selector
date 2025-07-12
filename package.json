@@ -1,0 +1,20 @@
+{
+  "name": "fantasy-football-draft-chooser",
+  "version": "1.0.0",
+  "description": "A modern web application for determining fantasy football draft order through an interactive name spinner",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "serve": "python -m http.server 8000",
+    "dev": "python -m http.server 8000"
+  },
+  "keywords": [
+    "fantasy-football",
+    "draft-order",
+    "name-spinner",
+    "javascript",
+    "web-application"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
