@@ -1,20 +1,20 @@
 class FantasyDraftChooser {
     constructor() {
         this.teamNames = [
-            "Here Comes the Money",
-            "aaron's Breathtaking Team",
-            "Baka 1337",
-            "Beats by Ray Rice",
-            "Eric's Excellent Team",
-            "Jonathan's Perfect Team",
-            "Just a chill guy.",
-            "Quon’s Quads",
-            "Tits Out for the Tide",
-            "Here for the snacks 🥨",
-            "Hard-Boiled Egbuka",
-            "Larry Titzgerald",
-            "Taco Tuesday Night Lights🌮",
-            "He Hate Me"
+            "Porscha",
+            "Jonathan",
+            "Brandon",
+            "George",
+            "Zachary",
+            "Rebecca",
+            "Tyler",
+            "Ian",
+            "Vida",
+            "Kenneth",
+            "Jim",
+            "Adrian",
+            "Nicole K",
+            "KJ"
         ];
         
         this.draftOrder = [];
